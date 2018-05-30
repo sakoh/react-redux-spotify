@@ -1,0 +1,6 @@
+export const SEARCH_ARTISTS_SUCCESS = 'search_artists_success'
+export const GET_RELATED_ARTISTS_SUCCESS = 'get_related_artists_success'
+export const SEARCH_ARTISTS_IN_FLIGHT = 'search_artists_in_flight'
+export const GET_RELATED_ARTISTS_IN_FLIGHT = 'get_related_artists_in_flight'
+export const SEARCH_ARTISTS_FAILED = 'search_artists_failed'
+export const GET_RELATED_ARTISTS_FAILED = 'get_related_artists_failed'
