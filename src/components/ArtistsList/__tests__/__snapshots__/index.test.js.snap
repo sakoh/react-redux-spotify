@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArtistList should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistsList
+    artists={
+        Array [
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Iron Maiden",
+              "popularity": 10,
+            },
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Metallica",
+              "popularity": 10,
+            },
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Eminenm",
+              "popularity": 10,
+            },
+          ]
+    }
+    title="Great Artists"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Great Artists
+</h1>,
+        <Unknown>
+          <Unknown
+                    image="http://via.placeholder.com/350x150"
+                    name="Iron Maiden"
+                    popularity={10}
+          />
+          <Unknown
+                    image="http://via.placeholder.com/350x150"
+                    name="Metallica"
+                    popularity={10}
+          />
+          <Unknown
+                    image="http://via.placeholder.com/350x150"
+                    name="Eminenm"
+                    popularity={10}
+          />
+</Unknown>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Great Artists",
+        },
+        "ref": null,
+        "rendered": "Great Artists",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              image="http://via.placeholder.com/350x150"
+              name="Iron Maiden"
+              popularity={10}
+/>,
+            <Unknown
+              image="http://via.placeholder.com/350x150"
+              name="Metallica"
+              popularity={10}
+/>,
+            <Unknown
+              image="http://via.placeholder.com/350x150"
+              name="Eminenm"
+              popularity={10}
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Iron Maiden",
+              "popularity": 10,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": undefined,
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Metallica",
+              "popularity": 10,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": undefined,
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Eminenm",
+              "popularity": 10,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": undefined,
+          },
+        ],
+        "type": undefined,
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Great Artists
+</h1>,
+          <Unknown>
+            <Unknown
+                        image="http://via.placeholder.com/350x150"
+                        name="Iron Maiden"
+                        popularity={10}
+            />
+            <Unknown
+                        image="http://via.placeholder.com/350x150"
+                        name="Metallica"
+                        popularity={10}
+            />
+            <Unknown
+                        image="http://via.placeholder.com/350x150"
+                        name="Eminenm"
+                        popularity={10}
+            />
+</Unknown>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Great Artists",
+          },
+          "ref": null,
+          "rendered": "Great Artists",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                image="http://via.placeholder.com/350x150"
+                name="Iron Maiden"
+                popularity={10}
+/>,
+              <Unknown
+                image="http://via.placeholder.com/350x150"
+                name="Metallica"
+                popularity={10}
+/>,
+              <Unknown
+                image="http://via.placeholder.com/350x150"
+                name="Eminenm"
+                popularity={10}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Iron Maiden",
+                "popularity": 10,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": undefined,
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Metallica",
+                "popularity": 10,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": undefined,
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Eminenm",
+                "popularity": 10,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": undefined,
+            },
+          ],
+          "type": undefined,
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

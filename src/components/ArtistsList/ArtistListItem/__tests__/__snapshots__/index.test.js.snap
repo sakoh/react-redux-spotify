@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArtistsListItem should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistListItem
+    image="http://via.placeholder.com/350x150"
+    name="Iron Maiden"
+    popularity={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          src="http://via.placeholder.com/350x150"
+/>,
+        <Unknown
+          primary="Iron Maiden"
+          secondary={10}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "src": "http://via.placeholder.com/350x150",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "primary": "Iron Maiden",
+          "secondary": 10,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": undefined,
+      },
+    ],
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            src="http://via.placeholder.com/350x150"
+/>,
+          <Unknown
+            primary="Iron Maiden"
+            secondary={10}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "src": "http://via.placeholder.com/350x150",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "primary": "Iron Maiden",
+            "secondary": 10,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": undefined,
+        },
+      ],
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
