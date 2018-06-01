@@ -1,25 +1,18 @@
 import React, { Component } from 'react'
-import { Provider } from 'react-redux'
-import logo from './logo.svg'
-import store from '../../store'
 import './index.css'
+import { SearchForm } from '../SearchForm'
+import { ArtistsList } from '../ArtistsList'
+import { artists } from '../../fixtures'
 
 class App extends Component {
-  render() {
-    return ( 
-      <div className = "App" >
-        <header className = "App-header" >
-          <img src={logo} className = "App-logo" alt = "logo" />
-          <h1 className="App-title"> Welcome to Max Artists </h1> 
-        </header> 
+  render () {
+    return (
+      <div className='App'>
+        <SearchForm />
+        <ArtistsList title='Search Results' artists={artists} />
       </div>
     )
   }
 }
 
-const mapStateToProps = (state) => ({
-  relatedArtists: state.relatedArtists.data,
-  searchArtists: state.searchArtists.data,
-})
-
-export default App
+export { App }

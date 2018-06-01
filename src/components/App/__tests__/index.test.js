@@ -5,7 +5,7 @@ import App from '..'
 
 configure({ adapter: new Adapter() })
 
-it('renders without crashing', () => {
+it('renders correctly', () => {
   const wrapper = shallow(<App />)
   expect(wrapper).toMatchSnapshot()
 })

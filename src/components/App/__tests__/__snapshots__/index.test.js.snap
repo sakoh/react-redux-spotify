@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -29,18 +29,32 @@ ShallowWrapper {
           <h1
                     className="App-title"
           >
-                    Welcome to Max Artists
+                     Welcome to Max Artists 
           </h1>
 </header>,
-        <p
-          className="App-intro"
->
-          To get started, edit 
-          <code>
-                    src/App.js
-          </code>
-           and save to reload.
-</p>,
+        <SearchForm />,
+        <ArtistsList
+          artists={
+                    Array [
+                              Object {
+                                "image": "http://via.placeholder.com/350x150",
+                                "name": "Iron Maiden",
+                                "popularity": 10,
+                              },
+                              Object {
+                                "image": "http://via.placeholder.com/350x150",
+                                "name": "Metallica",
+                                "popularity": 10,
+                              },
+                              Object {
+                                "image": "http://via.placeholder.com/350x150",
+                                "name": "Eminenm",
+                                "popularity": 10,
+                              },
+                            ]
+          }
+          title="Search Results"
+/>,
       ],
       "className": "App",
     },
@@ -60,7 +74,7 @@ ShallowWrapper {
             <h1
               className="App-title"
 >
-              Welcome to Max Artists
+               Welcome to Max Artists 
 </h1>,
           ],
           "className": "App-header",
@@ -85,11 +99,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Welcome to Max Artists",
+              "children": " Welcome to Max Artists ",
               "className": "App-title",
             },
             "ref": null,
-            "rendered": "Welcome to Max Artists",
+            "rendered": " Welcome to Max Artists ",
             "type": "h1",
           },
         ],
@@ -98,34 +112,39 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
         "props": Object {
-          "children": Array [
-            "To get started, edit ",
-            <code>
-              src/App.js
-</code>,
-            " and save to reload.",
+          "artists": Array [
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Iron Maiden",
+              "popularity": 10,
+            },
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Metallica",
+              "popularity": 10,
+            },
+            Object {
+              "image": "http://via.placeholder.com/350x150",
+              "name": "Eminenm",
+              "popularity": 10,
+            },
           ],
-          "className": "App-intro",
+          "title": "Search Results",
         },
         "ref": null,
-        "rendered": Array [
-          "To get started, edit ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "src/App.js",
-            },
-            "ref": null,
-            "rendered": "src/App.js",
-            "type": "code",
-          },
-          " and save to reload.",
-        ],
-        "type": "p",
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -148,18 +167,32 @@ ShallowWrapper {
             <h1
                         className="App-title"
             >
-                        Welcome to Max Artists
+                         Welcome to Max Artists 
             </h1>
 </header>,
-          <p
-            className="App-intro"
->
-            To get started, edit 
-            <code>
-                        src/App.js
-            </code>
-             and save to reload.
-</p>,
+          <SearchForm />,
+          <ArtistsList
+            artists={
+                        Array [
+                                    Object {
+                                      "image": "http://via.placeholder.com/350x150",
+                                      "name": "Iron Maiden",
+                                      "popularity": 10,
+                                    },
+                                    Object {
+                                      "image": "http://via.placeholder.com/350x150",
+                                      "name": "Metallica",
+                                      "popularity": 10,
+                                    },
+                                    Object {
+                                      "image": "http://via.placeholder.com/350x150",
+                                      "name": "Eminenm",
+                                      "popularity": 10,
+                                    },
+                                  ]
+            }
+            title="Search Results"
+/>,
         ],
         "className": "App",
       },
@@ -179,7 +212,7 @@ ShallowWrapper {
               <h1
                 className="App-title"
 >
-                Welcome to Max Artists
+                 Welcome to Max Artists 
 </h1>,
             ],
             "className": "App-header",
@@ -204,11 +237,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Welcome to Max Artists",
+                "children": " Welcome to Max Artists ",
                 "className": "App-title",
               },
               "ref": null,
-              "rendered": "Welcome to Max Artists",
+              "rendered": " Welcome to Max Artists ",
               "type": "h1",
             },
           ],
@@ -217,34 +250,39 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
           "props": Object {
-            "children": Array [
-              "To get started, edit ",
-              <code>
-                src/App.js
-</code>,
-              " and save to reload.",
+            "artists": Array [
+              Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Iron Maiden",
+                "popularity": 10,
+              },
+              Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Metallica",
+                "popularity": 10,
+              },
+              Object {
+                "image": "http://via.placeholder.com/350x150",
+                "name": "Eminenm",
+                "popularity": 10,
+              },
             ],
-            "className": "App-intro",
+            "title": "Search Results",
           },
           "ref": null,
-          "rendered": Array [
-            "To get started, edit ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "src/App.js",
-              },
-              "ref": null,
-              "rendered": "src/App.js",
-              "type": "code",
-            },
-            " and save to reload.",
-          ],
-          "type": "p",
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",
