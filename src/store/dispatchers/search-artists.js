@@ -3,12 +3,17 @@ import {
   searchArtistsSuccess,
   searchArtistsFailed,
 } from '../actions'
-import { GET_RELATED_ARTISTS_IN_FLIGHT } from '../actions/types'
+import {
+  SEARCH_ARTISTS_IN_FLIGHT
+} from '../actions/types'
 
 
-const searchAritsts = () => async dispatch => {
+const searchAritsts = (searchQuery) => async dispatch => {
+  dispatch({
+    type: SEARCH_ARTISTS_IN_FLIGHT,
+  })
   try {
-    const response = await axios.get('/api/v1/search-artists')
+    const response = await axios.get(`/api/v1/search-artists?q=${searchQuery}`)
     dispatch(searchArtistsSuccess(response))
   } catch (e) {
     dispatch(searchArtistsFailed(e))
