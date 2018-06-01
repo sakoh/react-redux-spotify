@@ -1,11 +1,9 @@
-import axios from 'axios'
+import { axiosInstance } from './axios-instance'
 import {
     getRelatedArtistsSuccess,
     getRelatedArtistsFailed,
 } from '../actions'
-import {
-    GET_RELATED_ARTISTS_IN_FLIGHT
-} from '../actions/types'
+import { GET_RELATED_ARTISTS_IN_FLIGHT } from '../actions/types'
 
 
 const searchAritsts = (artistId) => async dispatch => {
@@ -13,7 +11,7 @@ const searchAritsts = (artistId) => async dispatch => {
         type: GET_RELATED_ARTISTS_IN_FLIGHT,
     })
     try {
-        const response = await axios.get(`/api/v1/artists/${artistId}/related-artists`)
+        const response = await axiosInstance.get(`artists/${artistId}/related-artists`)
         dispatch(getRelatedArtistsSuccess(response))
     } catch (e) {
         dispatch(getRelatedArtistsFailed(e))
