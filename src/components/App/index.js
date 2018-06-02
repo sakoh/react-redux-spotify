@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Grid from '@material-ui/core/Grid'
 import './index.css'
 import { SearchForm } from '../SearchForm'
 import { ArtistsList } from '../ArtistsList'
@@ -9,7 +10,14 @@ class App extends Component {
     return (
       <div className='App'>
         <SearchForm />
-        <ArtistsList title='Search Results' artists={artists} />
+        <Grid container spacing={26}>
+          <Grid xs={12} sm={6}>
+            <ArtistsList title='Search Results' artists={artists} />
+          </Grid>
+          <Grid xs={12} sm={6}>
+            <ArtistsList title='Related Artists' artists={artists} />
+          </Grid>
+        </Grid>
       </div>
     )
   }

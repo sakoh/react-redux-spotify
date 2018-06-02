@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import List from '@material-ui/core/List'
+import ListSubheader from '@material-ui/core/ListSubheader'
 import PropTypes from 'prop-types'
 import { ArtistsListItem } from './ArtistListItem'
 import { artistPropType } from './types'
@@ -28,8 +29,8 @@ class ArtistsList extends Component {
     const { artists, title } = this.props
     return  (
       <div>
-        <h1>{title}</h1>
         <List>
+          <ListSubheader>{title}</ListSubheader>
           {this.renderArtists(artists)}
         </List>
       </div>
