@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className='App'>
         <SearchForm />
-        <Grid container spacing={26}>
+        <Grid container>
           <Grid xs={12} sm={6}>
             <ArtistsList title='Search Results' artists={artists} />
           </Grid>

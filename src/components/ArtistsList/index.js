@@ -28,12 +28,9 @@ class ArtistsList extends Component {
   render () {
     const { artists, title } = this.props
     return  (
-      <div>
-        <List>
-          <ListSubheader>{title}</ListSubheader>
-          {this.renderArtists(artists)}
-        </List>
-      </div>
+      <List subheader={title}>
+        {this.renderArtists(artists)}
+      </List>
     )
   }
 }
